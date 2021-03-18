@@ -1,0 +1,123 @@
+.banner{
+    background: url("img/Sol.svg") center -1450px, linear-gradient(to bottom, #FFFEEB, white);
+    height: 100vh;
+    /* background-position: center -1350px; */
+    background-repeat: no-repeat;
+    text-align: center;
+}
+button:hover{
+    background-color: #f85823;
+}
+body{
+  font-family: 'Baloo 2', cursive;
+}
+p{
+    color:#2c3743;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    
+}
+p span {
+    font-weight: 700;
+    
+}
+.titulo{
+    color: #F5A73C;
+    margin-bottom: 150px;
+}
+h2{
+    color: #1e8337;  
+    font-weight: 700;
+}
+.ventajas{
+    background-color: #eff5f8;
+    
+}
+.disabled{
+    opacity: 0.5;
+}
+button{
+    background-color: #e84e1b;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+.pregunta{
+    font-size: 14px;
+}
+.video{
+    width: 100%;
+    height: calc(50vw/1.77);
+}
+.spanv{
+    color:#1e8337;
+    font-size: 16px;
+}
+
+.cardv{
+    background-color: #eff5f8;
+}
+
+footer{
+    background-color:#1e8337;
+    color: white;
+
+}
+footer p{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    line-height: 22px;
+}
+h3{
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+@media (min-width: 375px) and (max-width: 1023px){ 
+
+    .banner{
+        background: url("img/Sol.svg") center -1550px , linear-gradient(to bottom, #FFFEEB, white);
+        background-repeat: no-repeat;
+        text-align: center;
+        
+    }
+    .titulo{
+        color:#F5A73C;
+        font-size: 3.75rem;
+        line-height: 1;
+    }
+
+    .s1{
+        margin: 0;
+    }
+    .transparencia{
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 2.75rem;
+    }
+
+    .ventajas h2{
+        margin: 20px;
+    }
+    .card-image{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        
+    }
+    .cards{
+        padding: 20px;
+    }
+    p{
+        font-size: 12px;
+    }
+
+    .img-registro{
+        width: 45%;
+        
+    }
+
+}
