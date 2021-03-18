@@ -119,5 +119,15 @@ h3{
         width: 45%;
         
     }
+    .correos, .alianzas,.logoBlanco{
+        margin: 10px;
+    }
+    .footerText{
+        padding: 20px;
+    }
+    .spanv{
+        
+        font-size: 10px;
+    }
 
 }
