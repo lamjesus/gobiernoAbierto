@@ -45,7 +45,7 @@ button{
     color: white;
 }
 .pregunta{
-    /*font-size: 14px;*/
+    font-size: 14px;
 }
 .video{
     width: 100%;
@@ -70,7 +70,6 @@ footer p{
     color: white;
     font-size: 14px;
     line-height: 22px;
-    margin-top: 25px;
 }
 h3{
     font-size: 22px;
@@ -79,10 +78,7 @@ h3{
 }
 
 @media (min-width: 375px) and (max-width: 1023px){ 
-    .m-img{
-        width: 80%;
-        margin: 0 auto;
-    }
+
     .banner{
         background: url("img/Sol.svg") center -1550px , linear-gradient(to bottom, #FFFEEB, white);
         background-repeat: no-repeat;
@@ -128,25 +124,10 @@ h3{
     }
     .footerText{
         padding: 20px;
-        font-size: 12px;
     }
     .spanv{
         
         font-size: 10px;
     }
-    .video{
-        width: 100%;
-        height: calc(80vw/1.77);
-    }
-    .m-padding{
-        padding: 30px 0;
-    }
-    .logoBlanco{
-        margin-top: 30px;
-    }
-    .m-logo {
-        width: 50%;
-        margin-bottom: 20px;
-        align-self: center;
-    }
+
 }
