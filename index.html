@@ -152,12 +152,12 @@
     </section>
 
     <h2 class="text-5xl md:text-6xl  text-center my-32">Modalidades competitivas</h2>
-    <section class="modalidades flex justify-around wrap flex-wrap mb-4 ">
+    <section class="modalidades flex justify-around wrap flex-wrap mb-40 ">
         
         <div class="  md:w-2/5   ">
 
             <div class=" cardv  bg-white  p-7 rounded-lg mb-8 mx-10 text-center ">
-                <p class="mb-2 text-center"><strong>Contratacion Directa</strong> </p>
+                <p class="mb-2 text-center"><strong>Contratación Directa</strong> </p>
                 <p class="text-center">
                     Cuando por razones 
                     particulares la Entidad<br> Estatal señala directamente cuál proveedor<br>
@@ -311,12 +311,12 @@
         <h2 class="text-5xl md:text-6xl text-center mb-20items-center">Preguntas Frecuentes </h2>
         <p class="text-center my-8 preguntas-parrafo">Aquí encontrarás algunas de las preguntas más comunes que los Palmiranos <br> hacen nuestra plataforma o sobre la contratación en el Municipio</p>
     </div>
-    <div class="p-5 bg-light-blue">
+    <div class="p-5 bg-light-blue ">
         <div class="flex justify-center items-start my-2">
           <div class="w-full sm:w-10/12 my-1">
             <p></p>
-            <ul class="flex flex-col">
-              <li class="bg-white my-2 shadow-lg" x-data="accordion(1)">
+            <ul class="flex flex-col ">
+              <li class="bg-white my-2 shadow-lg rounded-lg" x-data="accordion(1)">
                 <h2
                   @click="handleClick()"
                   class="flex flex-row justify-between items-center font-semibold p-3 cursor-pointer"
@@ -335,15 +335,15 @@
                   :style="handleToggle()"
                   class="border-l-2 border-green-600 overflow-hidden max-h-0 duration-500 transition-all"
                 >
-                  <p class="p-3 ">
-                    Todas las entidades del Estado deben publicar su Plan Anual de Adquisiciones a más tardar el 31 de enero de cada año, a partir de ese momento sólo están obligadas a realizar una actualización en el mes de julio. Sin embargo, la Alcaldía de Palmira suele actualizar su PAA cada 8 días; esto con el propósito de comunicar, de manera oportuna, cualquier cambio en materia de tiempo o modalidad frente a alguno de sus procesos de compra planeados. <br>
+                  <p class="p-7 ">
+                    Todas las entidades del Estado deben publicar su Plan Anual de Adquisiciones a más tardar el 31 de enero de cada año, a partir de ese momento sólo están obligadas a realizar una actualización en el mes de julio. Sin embargo, la Alcaldía de Palmira suele actualizar su PAA cada 8 días; esto con el propósito de comunicar, de manera oportuna, cualquier cambio en materia de tiempo o modalidad frente a alguno de sus procesos de compra planeados. <br><br>
                     Es importante resaltar que el PAA contiene información clave sobre los procesos de compra de la entidad, como modalidad de contratación, fecha estimada de publicación, valor, dependencia a cargo y objeto del contrato. El Banco de Licitaciones Abiertas de la Alcaldía de Palmira, toma como insumo este PAA para proyectar oportunidades para el sector empresarial. <br>
-                    Por esa razón, cada vez que se actualice el PAA, el cambio se verá reflejado en el Banco de Licitaciones Abiertas. 
+                    <br>Por esa razón, cada vez que se actualice el PAA, el cambio se verá reflejado en el Banco de Licitaciones Abiertas. 
 
                   </p>
                 </div>
               </li>
-              <li class="bg-white my-2 shadow-lg" x-data="accordion(2)">
+              <li class="bg-white my-2 shadow-lg rounded-lg" x-data="accordion(2)">
                 <h2
                   @click="handleClick()"
                   class="flex flex-row justify-between items-center font-semibold p-3 cursor-pointer"
@@ -362,12 +362,12 @@
                   x-ref="tab"
                   :style="handleToggle()"
                 >
-                  <p class="p-3 ">
+                  <p class="p-7 ">
                     Cualquier duda o consulta frente a uno de los proceso de compra de la Alcaldía o el funcionamiento del Banco de Licitaciones Abiertas, puedes enviarla a la dirección de correo potenciales.proveedores@palmira.gov.co
                   </p>
                 </div>
               </li>
-              <li class="bg-white my-2 shadow-lg" x-data="accordion(3)">
+              <li class="bg-white my-2 shadow-lg rounded-lg" x-data="accordion(3)">
                 <h2
                   @click="handleClick()"
                   class="flex flex-row justify-between items-center font-semibold p-3 cursor-pointer"
@@ -386,10 +386,10 @@
                   x-ref="tab"
                   :style="handleToggle()"
                 >
-                  <p class="p-3 ">
-                    Lo primero que debe hacer alguien que encuentre una compra en el Banco de Licitaciones Abiertas es presentar una propuesta cuando el proceso ya se encuentre publicado en el SECOP. Esta propuesta debe cumplir con los requisitos exigidos por la entidad, y hacer el ofrecimiento más favorable de acuerdo con los criterios fijados según las reglas aplicables a cada modalidad de selección. <br>
+                  <p class="p-7 ">
+                    Lo primero que debe hacer alguien que encuentre una compra en el Banco de Licitaciones Abiertas es presentar una propuesta cuando el proceso ya se encuentre publicado en el SECOP. Esta propuesta debe cumplir con los requisitos exigidos por la entidad, y hacer el ofrecimiento más favorable de acuerdo con los criterios fijados según las reglas aplicables a cada modalidad de selección. <br><br>
 
-                    Segundo, la entidad está obligada a ceñirse a los principios rectores de la contratación pública, de la función pública y a las reglas de juego fijadas en los pliegos de condiciones o sus equivalentes, debiendo escoger el ofrecimiento más favorable a la entidad y a los fines que ella busca de manera objetiva y con base en los factores de escogencia y calificación establecidos. <br>
+                    Segundo, la entidad está obligada a ceñirse a los principios rectores de la contratación pública, de la función pública y a las reglas de juego fijadas en los pliegos de condiciones o sus equivalentes, debiendo escoger el ofrecimiento más favorable a la entidad y a los fines que ella busca de manera objetiva y con base en los factores de escogencia y calificación establecidos. <br><br>
 
                     En síntesis, el Banco de Licitaciones Abiertas es una herramienta poderosa para fomentar la participación y competitividad en los procesos de compra de la Alcaldía de Palmira. No obstante, ser el ganador en una licitación depende del cumplimiento de determinados requisitos que establece la Ley. Como en toda competencia debidamente reglamentada, se pierde y se gana.  
 
