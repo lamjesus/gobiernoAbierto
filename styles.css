@@ -1,177 +1,223 @@
-.banner{
-    background: url("img/Sol.svg") center -1450px, linear-gradient(to bottom, #FFFEEB, white);
-    height: 100vh;
-    /* background-position: center -1350px; */
-    background-repeat: no-repeat;
-    text-align: center;
+.banner {
+  background: url("img/Sol.svg") center -1450px,
+    linear-gradient(to bottom, #fffeeb, white);
+  height: 100vh;
+  /* background-position: center -1350px; */
+  background-repeat: no-repeat;
+  text-align: center;
 }
-button:hover{
-    background-color: #f85823;
+.banner-p {
+  
+  
+  width: 100%;
 }
-body{
-  font-family: 'Baloo 2', cursive;
+button:hover {
+  background-color: #f85823;
 }
-p{
-    color:#2c3743;
-    font-weight: 400;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    text-align: justify;
-    
+body {
+  font-family: "Baloo 2", cursive;
+}
+p {
+  color: #2c3743;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  text-align: justify;
 }
 p span {
-    font-weight: 700;
-    
+  font-weight: 700;
 }
-.titulo{
-    color: #F5A73C;
-    margin-bottom: 150px;
+.titulo {
+  color: #f5a73c;
+  margin-bottom: 150px;
 }
-h2{
-    color: #1e8337;  
-    font-weight: 700;
+.proveedores-titulo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.ventajas{
-    background-color: #eff5f8;
-    
+h2 {
+  color: #1e8337;
+  font-weight: 700;
 }
-.disabled{
-    opacity: 0.5;
+.ventajas {
+  background-color: #eff5f8;
 }
-button{
-    background-color: #e84e1b;
-    font-weight: 400;
-    font-size: 20px;
-    color: white;
+.disabled {
+  opacity: 0.5;
 }
-.letra{
-    font-size: 20px;
+button {
+  background-color: #e84e1b;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
 }
-.newButton{
-    flex-direction: column;
-    gap: 16px;
+.letra {
+  font-size: 20px;
 }
-.pregunta{
-    /*font-size: 14px;*/
+.newButton {
+  flex-direction: column;
+  gap: 16px;
 }
-.video{
-    width: 100%;
-    height: calc(50vw/1.77);
+.pregunta {
+  /*font-size: 14px;*/
 }
-.spanv{
-    color:#1e8337;
-    font-size: 16px;
+.video {
+  width: 100%;
+  height: calc(50vw / 1.77);
+}
+.spanv {
+  color: #1e8337;
+  font-size: 16px;
 }
 
-.cardv{
-    background-color: #eff5f8;
+.cardv {
+  background-color: #eff5f8;
 }
 
-footer{
-    background-color:#1e8337;
-    color: white;
-
+footer {
+  background-color: #1e8337;
+  color: white;
 }
-footer p{
+footer p {
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  line-height: 22px;
+  margin-top: 25px;
+}
+h3 {
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+}
+
+.preguntas-span {
+  color: black;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.preguntas-parrafo {
+  font-size: 25px;
+}
+
+@media (min-width: 375px) and (max-width: 1023px) {
+  .m-img {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .banner {
+    background: url("img/Sol.svg") center -1550px,
+      linear-gradient(to bottom, #fffeeb, white);
+    background-repeat: no-repeat;
     text-align: center;
-    color: white;
-    font-size: 14px;
-    line-height: 22px;
-    margin-top: 25px;
-}
-h3{
-    font-size: 22px;
-    font-family: 'Poppins', sans-serif;
-    
-}
+  }
+  .titulo {
+    color: #f5a73c;
+    font-size: 3.75rem;
+    line-height: 1;
+  }
 
-.preguntas-span{
+  .s1 {
+    margin: 0;
+  }
+  .transparencia {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 2.75rem;
+  }
+
+  .ventajas h2 {
+    margin: 20px;
+  }
+  .card-image {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .cards {
+    padding: 20px;
+  }
+  p {
+    font-size: 12px;
+  }
+
+  .img-registro {
+    width: 45%;
+  }
+  .correos,
+  .alianzas,
+  .logoBlanco {
+    margin: 10px;
+  }
+  .footerText {
+    padding: 20px;
+    font-size: 12px;
+  }
+  .spanv {
+    font-size: 10px;
+  }
+  .video {
+    width: 100%;
+    height: calc(80vw / 1.77);
+  }
+  .m-padding {
+    padding: 30px 0;
+  }
+  .logoBlanco {
+    margin-top: 30px;
+  }
+  .m-logo {
+    width: 50%;
+    margin-bottom: 20px;
+    align-self: center;
+  }
+  .preguntas-span {
     color: black;
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+  }
+  .preguntas-parrafo {
+    padding: 20px;
+  }
 }
-.preguntas-parrafo{
-    font-size: 25px;
+
+.bannerj_text {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  font-family: "Yantramanav";
+  font-weight: 700;
+  font-size: 4vw;
+  line-height: 4vw;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  
+ 
+  
 }
-
-@media (min-width: 375px) and (max-width: 1023px){ 
-    .m-img{
-        width: 80%;
-        margin: 0 auto;
-    }
-    .banner{
-        background: url("img/Sol.svg") center -1550px , linear-gradient(to bottom, #FFFEEB, white);
-        background-repeat: no-repeat;
-        text-align: center;
-        
-    }
-    .titulo{
-        color:#F5A73C;
-        font-size: 3.75rem;
-        line-height: 1;
-    }
-
-    .s1{
-        margin: 0;
-    }
-    .transparencia{
-        margin-left: 15px;
-        margin-right: 15px;
-        font-size: 2.75rem;
-    }
-
-    .ventajas h2{
-        margin: 20px;
-    }
-    .card-image{
-        margin-top: 30px;
-        margin-bottom: 30px;
-        
-    }
-    
-    .cards{
-        padding: 20px;
-    }
-    p{
-        font-size: 12px;
-    }
-
-    .img-registro{
-        width: 45%;
-        
-    }
-    .correos, .alianzas,.logoBlanco{
-        margin: 10px;
-    }
-    .footerText{
-        padding: 20px;
-        font-size: 12px;
-    }
-    .spanv{
-        
-        font-size: 10px;
-    }
-    .video{
-        width: 100%;
-        height: calc(80vw/1.77);
-    }
-    .m-padding{
-        padding: 30px 0;
-    }
-    .logoBlanco{
-        margin-top: 30px;
-    }
-    .m-logo {
-        width: 50%;
-        margin-bottom: 20px;
-        align-self: center;
-    }
-    .preguntas-span{
-        color: black;
-        font-size: 16px;
-        font-family: 'Poppins', sans-serif;
-    }
-    .preguntas-parrafo{
-        padding: 20px;
-    }
+article h3 {
+  font-family: "Yantramanav", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+article p {
+  font-family: "Yantramanav";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: justify;
+  color: #605f5f;
+  margin-inline: 155px;
+}
+.banner-img{
+  width: 100%;
+}
+.span-p{
+  color:  #2CCDB0;
+  ;
 }
